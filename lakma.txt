@@ -1,0 +1,23 @@
+
+<table class="table table-hover table-bordered" style="color:#1a75ff">
+              <tbody>
+                <tr>
+                    <td>Pic</td>
+                    <td> <img src="<?php echo $_SESSION['userData']['picture']['url'];?> "/> </td>
+                </tr>  
+                <tr>
+                    <td>ID</td>
+                    <td> <?php echo $_SESSION['userData']['id'];?> </td>
+                </tr>   
+
+                <tr>
+                    <td>name</td>
+                    <td> <?php echo $_SESSION['userData']['name'];?> </td>
+                </tr>
+
+                <tr>
+                    <td>email</td>
+                    <td> <?php echo $_SESSION['userData']['email'];?> </td>
+                </tr> 
+              </tbody>
+              </table> 
